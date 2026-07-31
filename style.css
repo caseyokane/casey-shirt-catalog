@@ -1,6 +1,7 @@
 body { background: #c0c0c0; font-family: "Times New Roman", Times, serif; color: #000; margin: 0; padding: 8px; }
 a { color: #0000ee; text-decoration: underline; }
 a:visited { color: #551a8b; }
+header a, header a:visited { color: #fff; }
 hr { border: none; border-top: 3px inset #808080; border-bottom: 1px solid #fff; margin: 12px 0; }
 
 .container {

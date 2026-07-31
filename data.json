@@ -7,8 +7,8 @@
       "size": "L",
       "brand": "Nike",
       "images": {
-        "front": "images/001-front.jpg",
-        "back": "images/001-back.jpg"
+        "front": "assets/shirtImages/sixersBlue.jpg",
+        "back": "assets/shirtImages/sixersBlue.jpg"
       },
       "available": true
     },
@@ -19,8 +19,7 @@
       "size": "M",
       "brand": "Ralph Lauren",
       "images": {
-        "front": "images/002-front.jpg",
-        "back": "images/002-back.jpg"
+        "front": "assets/shirtImages/sixersBlue.jpg"
       },
       "available": true
     },
@@ -31,8 +30,8 @@
       "size": "XL",
       "brand": "Hanes",
       "images": {
-        "front": "images/003-front.jpg",
-        "back": "images/003-back.jpg"
+        "front": "assets/shirtImages/sixersBlue.jpg",
+        "back": "assets/shirtImages/sixersBlue.jpg"
       },
       "available": false
     }
