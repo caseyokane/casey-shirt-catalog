@@ -1,0 +1,79 @@
+body { background: #c0c0c0; font-family: "Times New Roman", Times, serif; color: #000; margin: 0; padding: 8px; }
+a { color: #0000ee; text-decoration: underline; }
+a:visited { color: #551a8b; }
+hr { border: none; border-top: 3px inset #808080; border-bottom: 1px solid #fff; margin: 12px 0; }
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #c0c0c0;
+  border: 3px outset #fff;
+  padding: 12px;
+}
+
+header {
+  background: #000080;
+  color: #fff;
+  font-family: "Comic Sans MS", "Chalkboard SE", cursive;
+  font-size: 1.6em;
+  font-weight: bold;
+  text-align: center;
+  padding: 8px 16px;
+  border: 3px outset #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.shirt-grid { display: flex; flex-wrap: wrap; gap: 10px; padding: 8px 0; }
+
+.shirt-card {
+  border: 3px outset #fff;
+  background: #d4d0c8;
+  padding: 8px;
+  width: 180px;
+  font-size: 0.9em;
+}
+.shirt-card img { width: 100%; border: 2px inset #808080; display: block; }
+.shirt-card a { display: block; margin-top: 4px; font-weight: bold; }
+
+.pagination { display: flex; gap: 4px; margin-top: 10px; align-items: center; }
+.pagination a, .pagination span {
+  border: 2px outset #fff;
+  background: #d4d0c8;
+  padding: 2px 8px;
+  text-decoration: none;
+  color: #000;
+  font-size: 0.85em;
+}
+.pagination a:hover { border-style: inset; }
+
+.item-detail {
+  display: flex;
+  gap: 16px;
+  border: 3px inset #808080;
+  background: #d4d0c8;
+  padding: 12px;
+}
+.item-detail img { width: 220px; border: 2px inset #808080; }
+
+.claim-form { border: 3px inset #808080; background: #d4d0c8; padding: 10px; margin-top: 12px; }
+.claim-form input, .claim-form textarea {
+  border: 2px inset #808080;
+  background: #fff;
+  padding: 2px 4px;
+  font-family: inherit;
+  width: 100%;
+  box-sizing: border-box;
+}
+.claim-form button {
+  border: 2px outset #fff;
+  background: #d4d0c8;
+  padding: 4px 16px;
+  font-family: inherit;
+  cursor: pointer;
+  margin-top: 6px;
+}
+.claim-form button:active { border-style: inset; }
+
+.badge-available { color: #008000; font-weight: bold; }
+.badge-claimed { color: #cc0000; font-weight: bold; }

@@ -1,0 +1,40 @@
+{
+  "shirts": [
+    {
+      "id": "001",
+      "title": "Sixers Blue Tee",
+      "description": "A classic blue tee repping the Philadelphia 76ers.",
+      "size": "L",
+      "brand": "Nike",
+      "images": {
+        "front": "images/001-front.jpg",
+        "back": "images/001-back.jpg"
+      },
+      "available": true
+    },
+    {
+      "id": "002",
+      "title": "Vintage Stripe Polo",
+      "description": "A vintage-style polo with horizontal stripes.",
+      "size": "M",
+      "brand": "Ralph Lauren",
+      "images": {
+        "front": "images/002-front.jpg",
+        "back": "images/002-back.jpg"
+      },
+      "available": true
+    },
+    {
+      "id": "003",
+      "title": "Graphic Band Tee",
+      "description": "A worn-in graphic tee from a classic rock tour.",
+      "size": "XL",
+      "brand": "Hanes",
+      "images": {
+        "front": "images/003-front.jpg",
+        "back": "images/003-back.jpg"
+      },
+      "available": false
+    }
+  ]
+}
