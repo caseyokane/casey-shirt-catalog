@@ -58,7 +58,9 @@ header {
 .item-detail img { width: 220px; border: 2px inset #808080; }
 
 .claim-form { border: 3px inset #808080; background: #d4d0c8; padding: 10px; margin-top: 12px; }
-.claim-form input, .claim-form textarea {
+.claim-form input[type="text"],
+.claim-form input[type="email"],
+.claim-form textarea {
   border: 2px inset #808080;
   background: #fff;
   padding: 2px 4px;
@@ -78,3 +80,10 @@ header {
 
 .badge-available { color: #008000; font-weight: bold; }
 .badge-claimed { color: #cc0000; font-weight: bold; }
+
+@media (max-width: 600px) {
+  header { font-size: 1.1em; letter-spacing: 1px; padding: 6px 8px; }
+  .shirt-card { width: calc(50% - 5px); }
+  .item-detail { flex-direction: column; }
+  .item-detail img { width: 100%; }
+}
