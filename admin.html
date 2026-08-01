@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin — Shirt Catalog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>Catalog Admin</header>
+    <hr>
+    <p id="status"></p>
+
+    <div id="login-section">
+      <p><label>GitHub Personal Access Token<br>
+        <input type="password" id="pat-input" style="width:300px;">
+      </label></p>
+      <button onclick="load()">Load Catalog</button>
+    </div>
+
+    <div id="admin-section" style="display:none;">
+      <div id="shirt-list"></div>
+      <hr>
+      <p>
+        <button onclick="addShirt()">+ Add Shirt</button>
+        <button onclick="commitChanges()">Commit Changes</button>
+      </p>
+    </div>
+  </div>
+  <script src="admin.js"></script>
+</body>
+</html>

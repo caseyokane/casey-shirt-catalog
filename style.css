@@ -81,6 +81,17 @@ header {
 .badge-available { color: #008000; font-weight: bold; }
 .badge-claimed { color: #cc0000; font-weight: bold; }
 
+fieldset { border: 3px outset #fff; background: #d4d0c8; margin-bottom: 10px; padding: 8px; }
+legend { background: #000080; color: #fff; padding: 2px 8px; font-size: 0.9em; }
+fieldset input[type="text"], fieldset textarea {
+  border: 2px inset #808080;
+  background: #fff;
+  padding: 2px 4px;
+  font-family: inherit;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 @media (max-width: 600px) {
   header { font-size: 1.1em; letter-spacing: 1px; padding: 6px 8px; }
   .shirt-card { width: calc(50% - 5px); }
